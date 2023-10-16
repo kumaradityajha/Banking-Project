@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>loginpage.com</title>
+<style type="text/css">
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #008000;
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input:focus {
+  background-color: #fafafa;
+}
+
+button {
+  width: 100px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #008000;
+  color: #fff;
+}
+
+button[type="reset"] {
+  margin-left: 1em;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Welcome to Customer Login</h1>
+
+<form action="customerlogin">
+
+Customer ID: <input type="text" name="custid" placeholder="Enter Your Customer ID">
+<br>
+<br>
+Password: <input type="password" name="pwd" placeholder="Enter Your Password">
+<br>
+<br>
+<button>Login</button>      <button type="reset">Cancel</button>
+
+
+</form>
+</body>
+</html>
